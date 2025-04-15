@@ -8,7 +8,6 @@ This repository contains a Jupyter Notebook demonstrating a machine learning wor
 ## Data
 
 * **Source:** cBioPortal for Cancer Genomics ([cbioportal.org](https://www.cbioportal.org/))
-* **Study:** Breast Invasive Carcinoma (TCGA, PanCancer Atlas)
 * **Files Used:**
     * Clinical Data: `data_clinical_sample.txt` (containing sample annotations, including subtypes)
     * Expression Data: `data_mrna_seq_v2_rsem_zscores_ref_diploid_samples.txt` (mRNA expression z-scores relative to diploid samples)
