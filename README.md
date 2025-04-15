@@ -57,7 +57,9 @@ Breast Invasive Lobular Carcinoma       0.64      0.73      0.68        60
 
 ```
 
-```markdown
-    **Final Confusion Matrix (RandomForest + SelectKBest + SMOTE):**
+**Final Confusion Matrix (RandomForest + SelectKBest + SMOTE):**
 
-    ![Confusion Matrix after SMOTE](images/confusion_matrix_rf_smote.png)
+![Confusion Matrix after SMOTE](images/confusion_matrix_rf_smote.png) 
+``` 
+
+
