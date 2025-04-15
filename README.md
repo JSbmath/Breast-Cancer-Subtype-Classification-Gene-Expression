@@ -54,3 +54,10 @@ Breast Invasive Lobular Carcinoma       0.64      0.73      0.68        60
                          accuracy                           0.79       325
                         macro avg       0.62      0.51      0.53       325
                      weighted avg       0.76      0.79      0.77       325
+
+```
+
+```markdown
+    **Final Confusion Matrix (RandomForest + SelectKBest + SMOTE):**
+
+    ![Confusion Matrix after SMOTE](images/confusion_matrix_rf_smote.png)
