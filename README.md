@@ -20,7 +20,7 @@ The analysis followed these steps:
 1.  **Data Loading & Initial Cleaning:** Loaded clinical and expression data using Pandas. Set appropriate indices (`SAMPLE_ID` for clinical, `Hugo_Symbol` for expression).
 2.  **Data Alignment:** Ensured both clinical and expression datasets contained the same samples in the same order.
 3.  **Handling Gene Duplicates:** Removed duplicate gene symbols from the expression data, keeping the instance with the highest mean expression across samples.
-4.  **Missing Value Analysis:** Identified and removed genes with a high percentage (>50%) of missing values (NaNs). Confirmed no further imputation was needed after this step.
+4.  **Missing Value Analysis:** Identified and removed genes with a high percentage (>50%) of missing values. Confirmed no further imputation was needed after this step.
 5.  **Exploratory Data Analysis (EDA):** Applied StandardScaler and performed dimensionality reduction using PCA and UMAP to visualize the high-dimensional gene expression data and observe potential clustering based on cancer subtypes.
 6.  **Handling Class Imbalance:**
     * Removed classes with only one sample to enable stratified splitting.
